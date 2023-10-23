@@ -10,4 +10,10 @@ variable "object_lock_rule" {
   }
 }
 
+variable "something" {
+  type = string
+  default = "hello"
+  sensitive = yes
+}
+
 
