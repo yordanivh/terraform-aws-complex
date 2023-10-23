@@ -4,10 +4,10 @@ variable "object_lock_rule" {
     retention_days = number 
   })
   description = "[Optional] Enable Object Lock rule configuration. Use in conjuction of variable - enable_object_lock."
-  default = "{ 
+  default = { 
     mode = null 
     retention_days = 0 
-  }"
+  }
 }
 
 
